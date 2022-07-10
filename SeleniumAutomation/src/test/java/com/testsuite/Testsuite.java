@@ -9,7 +9,7 @@ public class Testsuite {
 	static WebDriver driver = cl.selectBrowser();
 	public static void main(String[] args) throws InterruptedException {
 		driver.get("https://google.com");
-		Thread.sleep(5000);//new comment line
+		Thread.sleep(5000);//new comment line to test Jenkins
 		driver.close();
 		driver.quit();//final code line
 	}
